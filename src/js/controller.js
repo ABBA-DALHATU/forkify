@@ -83,6 +83,7 @@ const controlServings = function (servings) {
   recipeView.update(model.state.recipe);
 };
 
+//
 // const controlBookmark = function (recipe) {
 //   // Update the bookmark(in state)
 //   model.updateBookmark(recipe);
