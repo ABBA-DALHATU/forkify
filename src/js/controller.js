@@ -142,6 +142,7 @@ const controlAddRecipe = async function (newRecipe) {
   }
 };
 
+//Initialization
 const init = function () {
   const storedBookmarks = JSON.parse(localStorage.getItem('bookmark'));
   if (storedBookmarks) model.loadBookmarks(storedBookmarks);
