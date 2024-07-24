@@ -9,9 +9,7 @@ class ResultsView extends View {
 
   _generateMarkup() {
     const data = this._data;
-    console.log(data);
 
-    console.log(data.map(recipe => PreviewView.render(recipe, false)).join(''));
     return data.map(recipe => PreviewView.render(recipe, false)).join('');
   }
 }
